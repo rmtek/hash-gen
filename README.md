@@ -11,6 +11,5 @@ This script only uses Windows internal tools and commands:
 
     cmd.exe: Command Prompt, a text-based command-line interpreter in Windows.
 
-PayPal:   https://www.paypal.com/donate/?hosted_button_id=LD9842L5PKD4W
 
 Copyright (c) 2023, rm@rmtek.net
