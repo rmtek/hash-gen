@@ -9,8 +9,8 @@ Supported OS: Windows 8 / 10 / 11
 
 This script only uses Windows internal tools and commands:
 
-    cmd.exe:		Command Prompt, a text-based command-line interpreter in Windows.
-    PowerShell.exe	Command-line interface and scripting language
+    cmd.exe:          Command Prompt, a text-based command-line interpreter in Windows.
+    PowerShell.exe    Command-line interface and scripting language
 
 
 Support / Donation / PayPal:	https://www.paypal.com/donate/?hosted_button_id=U4MVM7GJ5XMDY
