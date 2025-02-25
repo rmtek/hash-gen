@@ -1,12 +1,12 @@
 
-:: Copyright (C) 2023 Ronald Michelic - rmtek.net
+:: Copyright (C) 2025 Ronald Michelic - rmtek.net
 :: All rights reserved.
 :: Name: Hash-Gen
 :: Description: This is an automatic drag and drop script for generating hashfiles.
 :: Supported OS: Windows 8 / 10 / 11
 :: Author: Ronald Michelic - rm@rmtek.net
 :: Version: 1.0
-:: Date: 2023-11-19
+:: Date: 2025-25-02
 :: License: BSD 3 clause license
 :: This script is licensed under the BSD-style license found in the LICENSE file in the root directory.
 
@@ -23,17 +23,17 @@ for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1)
 cls
 
 :: Variables Color Text
-set InfoText_1=:CT 03 "                                          Windows file hashing with Powershell"
-set InfoText_line=                                +---------------------------------------------------------+
-set InfoText_2=:CT 06 "                                            Automatic hash generating script"
-set InfoText_Bottomline=                                     +-----------------------------------------------+
+set InfoText_1=:CT 03 "                                                           Windows file hashing with Powershell"
+set InfoText_line=                                                +---------------------------------------------------------+
+set InfoText_2=:CT 06 "                                                             Automatic hash generating script"
+set InfoText_Bottomline=                                                     +-----------------------------------------------+
 set Status=:CT 07 "  Status ="
 set FileOK=:CT 0A " Generate Hash"
 set FileBAD=:CT 0C "    FAIL"
 set PayPal_1=:CT 07 "  (1)"
 set Pay=:CT 03 "  Pay"
 set Pal=:CT 0B "Pal"
-set mail_1=:CT 07 "                                                    rm@"
+set mail_1=:CT 07 "                                                                   rm@"
 set mail_2=:CT 04 "rm"
 set mail_3=:CT 07 "tek.net"
 cls
@@ -52,11 +52,11 @@ cls
 :: Calculate Hash
 if "%~1"=="" (
     echo   Drag and drop any file onto this script file to calculate multiple hash variants and save them to a single text file.
-    echo   This script does not work on network shares - only on local drives.
+    echo   This script does not work on network shares — only on local drives.
     echo.
     echo.
     echo %InfoText_Bottomline%
-    call %mail_1% & call %mail_2% & call %mail_3% & echo  - 2023
+    call %mail_1% & call %mail_2% & call %mail_3% & echo  - 2025
     echo.
     echo.
     echo   Press any key to exit..
@@ -117,7 +117,7 @@ if defined hash[SHA256] (
     echo   (3)  Exit
     echo.
     echo %InfoText_Bottomline%
-    call %mail_1% & call %mail_2% & call %mail_3% & echo  - 2023
+    call %mail_1% & call %mail_2% & call %mail_3% & echo  - 2025
     echo.
 
 
@@ -137,7 +137,7 @@ if %INPUT% == 1 (
 
 
 :Donation
-    start "Donation" "https://www.paypal.com/donate/?hosted_button_id=LD9842L5PKD4W"
+    start "Donation" "https://www.paypal.com/donate/?hosted_button_id=U4MVM7GJ5XMDY"
     goto Input
 
 
