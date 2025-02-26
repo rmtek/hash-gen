@@ -13,6 +13,7 @@ This script only uses Windows internal tools and commands:
     PowerShell.exe: Command-line interface and scripting language
 
 GitHub:             https://github.com/rmtek/hash-gen
+Youtube:            https://youtu.be/Xz71DNbUPXA
 Support / PayPal:   https://www.paypal.com/donate/?hosted_button_id=U4MVM7GJ5XMDY
 
 Copyright (c) 2025, rm@rmtek.net
