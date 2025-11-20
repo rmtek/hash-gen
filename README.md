@@ -17,7 +17,7 @@ It calculates MD5, SHA1, SHA256, and SHA512 using PowerShell — offline, fast, 
 
 ## Download
 Latest release:  
-https://github.com/rmtek/hash-gen
+https://github.com/rmtek/hash-gen/releases/latest
 
 ## Usage
 Drag files onto `hash-gen.bat` or run:
